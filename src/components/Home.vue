@@ -31,7 +31,6 @@
       </button>
 
       <div v-if="result" :class="['result', resultIsError ? 'error' : 'success']">
-        <h3>Response</h3>
         <pre>{{ result }}</pre>
       </div>
     </div>
